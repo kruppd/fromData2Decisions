@@ -1,7 +1,7 @@
 # Data Entry Analysis Assignment
 The purpose of this assignment is to identify data quality issues from three different data files. In addition to the typical concerns regarding data quality like accuracy and completeness, one of the underappreciated challenges with data organization is for one to decide when to use a wide data format versus a tall approach.
 
-Choosing an approach to organize data is a key decision for any longitudinal study, especially when trying to balance best practices between statistical data analysis and relational database management. Normalization helps reduce unnecessary duplication for records but can add complexity with how the dataset is spread out in different files, which would have to be joined together again for certain analyses. I tried to include both of these perspectives for my solution.
+Choosing an approach to organize data is a key decision for any longitudinal study, especially when trying to balance best practices between statistical data analysis and relational database management. Normalization helps reduce unnecessary duplication for records but can add complexity with how the data set is spread out in different files, which would have to be joined together again for certain analyses. I tried to include both of these perspectives for my solution.
 
 ## Data Quality Issues with the Plankton Data Files
 
@@ -11,10 +11,10 @@ Choosing an approach to organize data is a key decision for any longitudinal stu
 *	Depth and temp are being repeated three times with the same exact value, which creates unnecessary duplication. These columns are good candidates to be placed in a separate file.
 *	Chla is being duplicated twice. I decided it would best to separate into a different file, while transforming the cuni and chippo data in a taller format. This should make it easier to analyze how location (station), depth, species, time of day, etc… affect the dependent variables.
 *	At a minimum, data organization should be consistent, pond2010 is a tall file, which is more normalized, than the wide file approach for zoop – temp and zoop – temp main.
-*	Some data values are formatted with red text without any indication why. This is a problem for two reasons: first, if these values are being highlighted for a reason, then the reason is not being documented or communicated to the dataset's consumers. Second, statistical and data visualization programs will not read these format differences, so the significance of this information will be quickly lost. A new attribute to flag this information should be used, and the metadata should describe its significance.
-*	A more consistent data collection plan and naming is needed, because it’s unclear if the 2010 should be combined or separate from the 2011 files. Especially when a team is planning to trend observations from a longitudinal study, the dataset needs to be consistent.
+*	Some data values are formatted with red text without any indication why. This is a problem for two reasons: first, if these values are being highlighted for a reason, then the reason is not being documented or communicated to the data set's consumers. Second, statistical and data visualization programs will not read these format differences, so the significance of this information will be quickly lost. A new attribute to flag this information should be used, and the metadata should describe its significance.
+*	A more consistent data collection plan and naming is needed, because it’s unclear if the 2010 should be combined or separate from the 2011 files. Especially when a team is planning to trend observations from a longitudinal study, the data set needs to be consistent.
 * The units are not explicit in all files. Combining observations in one file should make it easier to manage metadata, units, and column naming conventions.
-* If this dataset will be shared to the academic community for future analysis, then graphs shouldn't be embedded with the underlying data.
+* If this data set will be shared to the academic community for future analysis, then graphs shouldn't be embedded with the underlying data.
 
 #### Issues affecting zoop – temp-main file
 *	Row 29, Col H: The 37.8 value is most likely a data entry error, because it doesn’t follow the duplication pattern of other entries and is more than twice the value of the next highest observation.
