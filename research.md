@@ -10,7 +10,7 @@ The complexity of our world should not be underestimated, especially when consid
 
 ### Potential Benefits from Tracking Animal Behavior and Decisions
 
-Throughout history, animals have supplemented human activities in various tasks, due to our natural weaknesses in different physical areas. Horseback riding is obviously much more efficient than walking to your destination by foot. For research purposes, the greater interest is on animal behaviors and habits. Animals have natural perceptions that can alert and aid humans about subtle changes taking place within different situations and environments (Hayakawa, 2013, p. 20).
+Throughout history, animals have supplemented human activities in various tasks, due to our natural weaknesses in different physical areas. Horseback riding is obviously much more efficient than walking to your destination by foot. For research purposes, the greater interest is on animal behaviors and habits. Animals have natural perceptions that can potentially alert and aid humans about subtle changes taking place within different situations and environments (Hayakawa, 2013, p. 20).
 
 For example, dogs aid people in many activities that require heighted senses, like helping people with certain disabilities, following a scent of missing people, or protecting a house from stealthy intrusions. Attempting to better understand these perceptive abilities, a scientific study tested the reactions of dogs to numeracy awareness, different physical objects, 2D images, human face recognition, human voice recognition, and human expression understanding (Winters, Dubuc, & Higham, 2015, p. 629).
 
