@@ -1,4 +1,4 @@
-# The Value of Understanding and Visualizing Bird Activity Data
+# The Value of Collecting and Visualizing Bird Activity Data
 
 ### The Importance of Collecting Data About Environmental Concerns
 
